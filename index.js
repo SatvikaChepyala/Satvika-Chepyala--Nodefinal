@@ -79,12 +79,12 @@ const server = http.createServer((req, res) => {
                 await client.connect();
                 console.log('Connected to MongoDB Atlas cluster');
 
-                const ArticleCollection = client.db('Article').collection('users');
+                const Collection = client.db('Article').collection('users');
 
 
                 const collectionData = {
 
-                    users: await ArticleCollection.find().toArray()
+                    users: await Collection.find().toArray()
                 };
                 
                 console.log(collectionData);
