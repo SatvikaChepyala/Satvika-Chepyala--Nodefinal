@@ -592,4 +592,19 @@ img {
       right: auto;
       transform: translateX(0);
   }
+  .projectDiv,
+  .projectDiv3 {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      float: none;
+  }
+
+  .projectSubDiv,
+  .projectSubDiv3 {
+      position: relative;
+      left: auto;
+      right: auto;
+      transform: translateX(0);
+  }
 }
